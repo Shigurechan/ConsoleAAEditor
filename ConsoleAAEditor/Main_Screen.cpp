@@ -71,10 +71,9 @@ void Main_Screen::Input()
         InsertKey = true;
 
     }
-
-
-
-    // 入力切り替え
+    
+    
+    
     if ((mInput->getKeyDown(KeyCode::F1_KEY) == true))
     {
         mText->Write("Insert key\n");
